@@ -20,12 +20,12 @@ class LetsCookWithLoveApp:
     def view_manual(self):
         # Create the view manual window
         int_view_manual_window =
-        int.view_manual_window.title("View Manual")
+        int_view_manual_window_title("View Manual")
 
         # Add the displaying saved recipes, filtering ingredients, and editing instructions
       
 
-    def add_ingredient(self):
+    def add_ingredient():
         # Create the add ingredient window
         int_add_ingredient_window =    
     add_ingredient_window_title("Add Ingredient")
@@ -35,7 +35,7 @@ class LetsCookWithLoveApp:
     def open_manual():
         # Create the user manual window
         int_manual_window 
-        manual_window.title("User Manual")
+        manual_window_title("User Manual")
    
 
 app = LetsCookApp(root)
