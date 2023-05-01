@@ -1,0 +1,44 @@
+#import 
+
+class LetsCookWithLoveApp:
+    def _init_():
+        FileName = (“Lets cook with love: “) 
+        Input the title("Let's Cook GUI Application :")
+
+        # Create a welcome message with buttons
+        Input the message =("WELCOME LET'S COOK WITH LOVE")
+
+        Input_ingredients_button ="GET INGREDIENTS", command=view_manual)
+        self_ingredients_button
+
+        Input a create_button (="CREATE YOUR OWN", command=Int_add_ingredient)
+        int_create_button}
+
+        Input_manual_button = _Button(master, text="USER MANUAL", command=int_open_manual)
+        int_manual_button()
+
+    def view_manual(self):
+        # Create the view manual window
+        int_view_manual_window =
+        int.view_manual_window.title("View Manual")
+
+        # Add the displaying saved recipes, filtering ingredients, and editing instructions
+      
+
+    def add_ingredient(self):
+        # Create the add ingredient window
+        int_add_ingredient_window =    
+    add_ingredient_window_title("Add Ingredient")
+
+        # Add adding and editing new ingredients, searching for ingredients, and creating wish lists
+
+    def open_manual():
+        # Create the user manual window
+        int_manual_window 
+        manual_window.title("User Manual")
+
+        # Add the providing instructions on how to use the application and its features
+   
+
+app = LetsCookApp(root)
+root_mainloop()
