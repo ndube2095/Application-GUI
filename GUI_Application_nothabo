@@ -36,8 +36,6 @@ class LetsCookWithLoveApp:
         # Create the user manual window
         int_manual_window 
         manual_window.title("User Manual")
-
-        # Add the providing instructions on how to use the application and its features
    
 
 app = LetsCookApp(root)
